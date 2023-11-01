@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Photo Gallery</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Photo Gallery</h1>
+      <h2>Enter the number of photos</h2>
+      <input
+        type="number"
+        id="input"
+        class="input"
+        value="2"
+        min="1"
+        max="10"
+      />
+      <small class="errorMessage" id="errorMessage"
+        >number should be between 1 and 10</small
+      >
+      <button class="btn" id="btn">Get photos</button>
+      <div class="gallery" id="gallery">
+        <img
+          src="https://images.unsplash.com/photo-1693858839255-3541bb5e0947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+          alt=""
+        />
+        <img
+          src="https://images.unsplash.com/photo-1693858839255-3541bb5e0947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+          alt=""
+        />
+        <img
+          src="https://images.unsplash.com/photo-1693858839255-3541bb5e0947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+          alt=""
+        />
+        <img
+          src="https://images.unsplash.com/photo-1693858839255-3541bb5e0947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+          alt=""
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
